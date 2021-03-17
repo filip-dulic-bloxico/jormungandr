@@ -25,7 +25,7 @@ thiserror = "1.0"
 poldercast = { git = "https://github.com/primetype/poldercast.git", rev = "8305f1560392a9d26673ca996e7646c8834533ef" }
 multiaddr = { package = "parity-multiaddr", version = "0.9" }
 hex = "0.4"
-bech32 = "0.7"
+bech32 = "0.8"
 base64 = "0.13.0"
 http = "0.2.2"
 
