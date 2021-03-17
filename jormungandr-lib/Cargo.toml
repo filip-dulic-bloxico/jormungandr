@@ -31,7 +31,7 @@ http = "0.2.2"
 
 [dev-dependencies]
 rand = "0.7"
-quickcheck = "0.9"
+quickcheck = "1.0"
 chain-impl-mockchain = { git = "https://github.com/input-output-hk/chain-libs.git", branch = "master", features = [ "property-test-api" ] }
 chain-addr      = { git = "https://github.com/input-output-hk/chain-libs.git", branch = "master", features = [ "property-test-api" ] }
 chain-crypto    = { git = "https://github.com/input-output-hk/chain-libs.git", branch = "master", features = [ "property-test-api" ] }
