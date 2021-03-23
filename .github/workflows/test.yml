@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - pack-logs-for-tests-workflow
     paths:
       - doc/api/**.yaml
       - jormungandr-lib/**
