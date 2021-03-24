@@ -202,6 +202,7 @@ jobs:
           TMP: ${{ runner.temp }}\logs
 
       - name: Pack logs from failed tests
+        if: always()
         uses: actions/upload-artifact@v2
         with:
           name: ${{ matrix.os }}-${{ matrix.profile }}-node-logs-from-failed-tests
