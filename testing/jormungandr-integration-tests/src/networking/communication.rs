@@ -59,4 +59,5 @@ pub fn two_nodes_communication() {
     jcli.fragment_sender(&trusted_jormungandr)
         .send(&transaction_message)
         .assert_in_block();
+    assert!(false);
 }
