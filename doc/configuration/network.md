@@ -101,9 +101,9 @@ Use the CA certificate with `jcli`.
   - `blocks`: notify other peers this node is interested about new Blocks.
     typical settings for a non mining node: `"normal"`. For a stakepool: `"high"`.
 - `max_connections`: the maximum number of P2P connections this node should
-    maintain. If not specified, an internal limit is used by default `[default: 256]`
+    maintain. If not specified, an internal limit is used by default `\[default: 256\]`
 - `max_inbound_connections`: the maximum number of client P2P connections this
-    node should keep open. `[default: 192]`
+    node should keep open. `\[default: 192\]`
 - `policy`: (optional) set the setting for the policy module
   - `quarantine_duration` set the time to leave a node in quarantine before allowing
     it back (or not) into the fold.
@@ -151,8 +151,8 @@ automatically, so they cannot be quarantined.
 
 - `view_max`: this is the number of entries to show in the view each round
   the layer will **randomly** select up to `view_max` entries from the whole
-  preferred_list.peers list of entries. [default: 20]
-- `peers`: the list of peers to keep in the preferred list [default: EMPTY]
+  preferred_list.peers list of entries. \[default: 20\]
+- `peers`: the list of peers to keep in the preferred list \[default: EMPTY\]
 
 Also, the preferred list will never be quarantined or blacklisted, the node will
 attempt to connect to (up to `view_max` of) these nodes every time, even if some
